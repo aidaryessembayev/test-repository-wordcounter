@@ -24,5 +24,9 @@ public class AppTester {
         assertEquals("if empty words", 0, words);
     }
 
+	@Test
+	public void reader_test_4 () {
+		assertSame ("Aidar is the best" , "Aidar is the best");
+	}
 }
 
